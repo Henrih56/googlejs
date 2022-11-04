@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <style>
+            .centro{
+                text-align: center;
+                margin-top: 150px;
+            }
+            body{
+                background-color:rgb(217, 95, 9)
+            }
+            h1{
+                color: rgb(138, 0, 0);
+                font-size: 50px;
+            }
+            input{
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+            button{
+                background-color: rgb(255, 104, 49);
+                border-radius: 10px;
+                color:white;
+            }
+
+
+        </style>
+
+    </head>
+    <body>
+        <div class="centro">
+        <h1>Google</h1>
+        <input>
+        <div>
+            <button>Procurar</button>
+            <button onclick="somar()">somar</button>
+
+        </div>
+
+    </body>
+    <script>
+        function somar(){
+            var n1 = Number(prompt("Digite n1"))
+            var n2 = Number(prompt("Digite n2"))
+            var resultado = n1 + n2;
+            alert(resultado.toFixed(2));
+        }
+    </script>
+</html>
